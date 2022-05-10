@@ -1,0 +1,13 @@
+apt install tree
+apt install zip
+apt install unzip
+apt install ffmpeg
+apt install nodejs
+
+----------------------------
+
+home brew
+https://brew.sh
+
+brew install gh
+
