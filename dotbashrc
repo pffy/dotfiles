@@ -1,0 +1,8 @@
+# ~/.bashrc
+
+pasta() {
+  echo "making pasta..."
+  zip pasta.zip -r src -x *.git* > pasta.log
+  cat pasta.log
+  echo "done."
+}
