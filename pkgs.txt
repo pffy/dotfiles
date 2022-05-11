@@ -3,10 +3,12 @@ apt install zip
 apt install unzip
 apt install ffmpeg
 apt install nodejs
+apt install wget
+apt install curl
 
-----------------------------
+# ----------------------------
 
-home brew
+# home brew
 https://brew.sh
 
 brew install gh
