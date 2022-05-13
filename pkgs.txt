@@ -5,6 +5,7 @@ apt install ffmpeg
 apt install nodejs
 apt install wget
 apt install curl
+apt install rename
 
 # ----------------------------
 
