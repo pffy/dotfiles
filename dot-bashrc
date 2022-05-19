@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # ~/.bashrc
 
 # creates new unsigned Chrome extension zip file
