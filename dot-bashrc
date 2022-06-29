@@ -10,6 +10,12 @@ pasta() {
 }
 
 # creates new knowledge base key
-function kbdate() {
+kbdate() {
   date +"KB%g%j%H%M";
 }
+
+dunk() {
+  VER=$(date +%b%d | tr [:upper:] [:lower:])
+  gcloud app deploy -q -v $VER
+} 
+
