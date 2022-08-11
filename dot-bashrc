@@ -14,8 +14,15 @@ kbdate() {
   date +"KB%g%j%H%M";
 }
 
+## one-word Google App Engine deployment
 dunk() {
   VER=$(date +%b%d | tr [:upper:] [:lower:])
   gcloud app deploy -q -v $VER
 } 
 
+## one-word Linux package update
+upd() {
+  sudo apt update;
+  sudo apt upgrade -y;
+  sudo apt autoremove -y;
+}
