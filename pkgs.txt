@@ -6,11 +6,20 @@ apt install nodejs
 apt install wget
 apt install curl
 apt install rename
+apt install pdftk
+apt install firefox-esr
+apt install npm
+
+
+# npm stuff (in home dir)
+npm i -D selenium-webdriver
+
 
 # ----------------------------
 
 # home brew
-https://brew.sh
+# https://brew.sh
 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install gh
 
