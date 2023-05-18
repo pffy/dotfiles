@@ -6,7 +6,7 @@ sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gp
 sudo sh -c 'echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list'
 sudo apt update
 
-sudo apt install php8.0-common php8.0-cli -y
+sudo apt install php8.0-common php8.0-cli php8.0-curl php8.0-gd -y
 
 php -m > phpm.txt
 php -v > phpv.txt
