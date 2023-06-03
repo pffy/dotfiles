@@ -1,3 +1,5 @@
+# bash commands
+
 ### Convert video to animated GIF
 ```sh
 ## solution found here:
